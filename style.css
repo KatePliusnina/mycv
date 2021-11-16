@@ -1,0 +1,129 @@
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mainpart{
+    font-family: 'Poppins', sans-serif;
+    width: 850px;
+    background-color: #ffffff;
+    padding-left: 3%;    
+    padding-right: 3%;
+}
+.about-name{
+text-align: center;
+font-size: 45px;
+text-shadow: 3px 3px 4px cornflowerblue;
+}
+.ul-scills{
+background-color:  rgba(143, 200, 223, 0.5);
+text-align: center;
+border-radius: 20px;
+color: #535d88;
+padding: 20px;
+list-style: none;
+-webkit-transition: all 0.3s ease;;
+-moz-transition: all 0.3s ease;;
+-o-transition: all 0.3s ease;;
+transition: all 0.3s ease;
+}
+.ul-scills:hover {
+    background:#53ea93;
+  }
+.gif{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.title{
+font-size: 30px;
+color: darkcyan;
+text-align: center;
+margin: 0;
+padding-top: 30px;
+}
+
+.title-work{
+font-size: 25px;
+margin: 0;
+padding-top: 15px;
+color: black;
+}
+.work{
+    color: #737373;
+}
+.sidebar{
+    background-color: #8db1e7;
+    width: 350px;
+    padding-top: 50px;
+}
+.photo {
+    height: 400px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    border-radius: 0 20% 0 20%;
+}
+.sidebar-title{
+font-size: 25px;
+font-weight: bolder;
+}
+.contacts {
+    margin-left: 10%;
+  }
+.contact-type{
+   font-style: normal;
+   font-weight: bold; 
+   font-size: 15px;
+   line-height: 25px;
+   margin-right: 10px;
+}
+.contact-link{
+    color: #fcfcfc;
+    font-style: normal;
+    font-weight: normal; 
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.button-address, .buttom-hide{
+    color: white;
+    background: darkblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 50px;
+    cursor: pointer;
+}
+.buttom-hide{
+    width: 150px;
+    margin: 50px 70px; 
+}
+@media screen and (max-width: 720px) {
+    .main{
+        display: block;
+        max-width: 720px;
+        padding: 0;
+        box-shadow: none;
+    }
+    .mainpart{
+        width: 550px;
+    }
+    .sidebar{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .photo {
+        height: 800px;
+        width: 600px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        border-radius: 0 15% 0 15%;
+    }
+}
+   #text{
+   padding: 0 50px 150px 50px;
+   font-size: 15px;
+   }
